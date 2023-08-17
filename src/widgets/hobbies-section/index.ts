@@ -1,1 +1,0 @@
-export {HobbiesSection} from './hobbies-section.tsx'

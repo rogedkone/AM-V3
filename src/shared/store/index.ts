@@ -1,1 +1,0 @@
-export {getStore, updateStore, changeTheme} from './all'
