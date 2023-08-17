@@ -1,0 +1,78 @@
+.interests {
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.colorized {
+    & svg {
+        border-radius: 15px;
+
+        &:nth-child(1) {
+            background: #5EAA22;
+        }
+
+        &:nth-child(2) {
+            background: #3BC583;
+        }
+
+        &:nth-child(3) {
+            background: #FF8C1A;
+        }
+
+        &:nth-child(4) {
+            background: #FF8C1A;
+        }
+
+        &:nth-child(5) {
+            background: #5EAA22;
+        }
+
+        &:nth-child(6) {
+            background: #3D58DB;
+        }
+
+        &:nth-child(7) {
+            background: #3B40C5;
+        }
+
+        &:nth-child(8) {
+            background: #C53B3B;
+        }
+
+        &:nth-child(9) {
+            background: #5EAA22;
+        }
+
+        &:nth-child(10) {
+            background: #D02F44;
+        }
+
+        &:nth-child(11) {
+            background: #A13BC5;
+        }
+
+        &:nth-child(12) {
+            background: #CC2727;
+        }
+
+        &:nth-child(13) {
+            background: #FF8C1A;
+        }
+
+        &:nth-child(14) {
+            background: #5EAA22;
+        }
+
+        &:nth-child(15) {
+            background: #A13BC5;
+        }
+
+        &:nth-child(16) {
+            background: #3B40C5;
+        }
+    }
+}

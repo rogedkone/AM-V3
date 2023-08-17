@@ -1,0 +1,63 @@
+.contacts {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 10px;
+
+    & svg {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (min-width: 360px) {
+    .contacts {
+        gap: 5px;
+
+    }
+}
+
+.colorized {
+    & svg {
+        border-radius: 15px;
+
+        &:nth-child(1) {
+            background: #46C53B;
+        }
+
+        &:nth-child(2) {
+            background: #3BC583;
+        }
+
+        &:nth-child(3) {
+            background: #C5963B;
+        }
+
+        &:nth-child(4) {
+            background: #3B40C5;
+        }
+
+        &:nth-child(5) {
+            background: #3B59C5;
+        }
+
+        &:nth-child(6) {
+            background: #A13BC5;
+        }
+
+        &:nth-child(7) {
+            background: #6F3BC5;
+        }
+
+        &:nth-child(8) {
+            background: #D5C00C;
+        }
+
+        &:nth-child(9) {
+            background: #C53B3B;
+        }
+    }
+}

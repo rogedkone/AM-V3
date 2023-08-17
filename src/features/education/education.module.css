@@ -1,0 +1,16 @@
+.education {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0;
+
+    & table {
+        width: 100%;
+    }
+}
+
+.active {
+    background: var(--primary);
+}

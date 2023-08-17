@@ -1,0 +1,1 @@
+export {SoftSkills} from './soft-skills.tsx'

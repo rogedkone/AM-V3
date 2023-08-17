@@ -1,0 +1,22 @@
+.soft-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first {
+    color: var(--primary);
+    font-size: 24px;
+    font-family: var(--font-family-caption);
+    font-style: normal;
+    font-weight: 300;
+}
+
+.second {
+    color: var(--font-color-caption);
+    font-size: 17px;
+    font-family: var(--font-family-caption);
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+}
